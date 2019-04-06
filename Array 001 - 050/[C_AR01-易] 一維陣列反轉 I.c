@@ -14,6 +14,7 @@ int main()
 		{
 			printf("%d ",ary[i]);
 		}
+		puts("");
 	}
 	return 0;
 }
