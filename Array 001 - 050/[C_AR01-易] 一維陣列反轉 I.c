@@ -16,5 +16,6 @@ int main()
 		}
 		puts("");
 	}
+	system("pause");
 	return 0;
 }
