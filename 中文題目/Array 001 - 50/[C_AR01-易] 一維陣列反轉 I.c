@@ -9,7 +9,7 @@ int main()
 	for(i=0;i<n;i++)
 		scanf("%d",&num[i]);
 	int *aryPtr;
-	aryPtr=num;
+	aryPtr=num; /* == aryPtr=&num[0];*/
 	for(i=0;i<n;i++)
 		printf("%d ",aryPtr[(n-1)-i]);
 	system("pause");
