@@ -4,11 +4,14 @@ int main()
 {
 	int num[6];
 	int i;
-	for(i=0;i<6;i++)
+	int n;
+	scanf("%d",&n);
+	for(i=0;i<n;i++)
 		scanf("%d",&num[i]);
-	for(i=0;i<6;i++)
-		printf("%d ",num[5-i]);
-	puts("");
+	int *aryPtr;
+	aryPtr=num;
+	for(i=0;i<n;i++)
+		printf("%d ",aryPtr[(n-1)-i]);
 	system("pause");
 	return 0;
 }
